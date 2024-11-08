@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import './SignIn.css';
 
-function Login() {
+function SignIn() {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -102,4 +101,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default SignIn;

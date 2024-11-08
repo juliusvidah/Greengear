@@ -1,0 +1,33 @@
+.verify-button {
+    width: 95%;
+    padding: 10px;
+    margin: 7px 0;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .verify-button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+  }
+
+  .resend-button {
+    width: 95%;
+    padding: 10px;
+    margin: 7px 0;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .resend-button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+  }
