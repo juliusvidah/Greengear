@@ -100,3 +100,12 @@
     height: 100vh;
     object-fit: cover;
   }
+  @media (max-width: 480px) {
+    .image-container{
+      display: none;
+    }
+    .container{
+      align-content: center;
+      background-image: url(https://www.deere.co.in/assets/images/region-1/products/tractors/john-deere-e-series-cab.jpg);
+    }
+  }

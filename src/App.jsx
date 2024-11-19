@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <SignIn/>
-      {/* <SignUp/> */}
+      {/* <SignIn/> */}
+      <SignUp/>
       {/* <PasswordResetForm/> */}
       {/* <EmailVerification/> */}
     </>
