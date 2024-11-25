@@ -1,0 +1,66 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#Recently {
+  .section {
+    margin: $margin;
+    max-width: 1284px;
+    h2 {
+      @extend .h2;
+      text-align: center;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      .parts {
+        h3 {
+          font-size: 18px;
+          margin-top: 15px;
+          margin-bottom: 13px;
+        }
+
+        h6 {
+          font-size: 15px;
+        }
+
+        p {
+          color: gray;
+          margin-bottom: 24px;
+        }
+
+        .flex {
+          display: $flex;
+          text-align: $align;
+          gap: 10px;
+        }
+        .flex2 {
+          display: $flex;
+          align-items: $align;
+          gap: 40px;
+        }
+
+        button {
+          background-color: $color1;
+          width: 101px;
+          height: 50px;
+          border-radius: 100px;
+          border-style: $border;
+          color: #fdfefd;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .relative {
+      border-radius: 10px;
+      //   position: relative;
+    }
+
+    .cart {
+      position: absolute;
+    }
+  }
+}

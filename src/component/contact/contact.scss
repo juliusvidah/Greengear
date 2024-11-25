@@ -1,0 +1,43 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#Contact {
+  width: $width;
+  background-color: $background;
+  margin: $margin;
+  padding-top: 60px;
+  .section {
+    max-width: $max;
+    margin: $margin;
+
+    .div1 {
+      text-align: center;
+      background-color: $color3;
+      color: white;
+      height: 282px;
+      border-radius: 8px;
+      padding: 20px;
+      @include flex-column;
+
+      h2 {
+        font-size: 36px;
+      }
+      p {
+        width: 1180px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 18px;
+      }
+
+      button {
+        background-color: white;
+        color: $color1;
+        width: 340px;
+        height: 54px;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+    }
+  }
+}

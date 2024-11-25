@@ -1,0 +1,48 @@
+{
+  "recently": [
+    {
+      "name": "John Dey Tractor",
+      "id": 1,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731659617/tractor_hednus.png",
+      "cloudName": "drqaon7o8",
+      "vector": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731660061/Vector__xzc7dy.png",
+      "tags": "Engine Power: 370 HP",
+      "price": "₦ 30,000/day",
+      "button": "Rent Now",
+      "description": "High-performance row crop tractor with advanced precision technology."
+    },
+    {
+      "name": "John Dey Tractor",
+      "id": 2,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731492030/Farm_tractor_qtqjp9.png",
+      "cloudName": "drqaon7o8",
+      "vector": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731660061/Vector__xzc7dy.png",
+      "tags": "Engine Power: 370 HP",
+      "price": "₦ 20,000/day",
+      "button": "Rent Now",
+      "description": "High-performance row crop tractor with advanced precision technology."
+    },
+    {
+      "name": "Crimson Combine Harvester",
+      "id": 3,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731491816/Harvester_punsbl.png",
+      "cloudName": "drqaon7o8",
+      "vector": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731660061/Vector__xzc7dy.png",
+      "tags": "Engine Power: 420 HP",
+      "price": "₦ 15,000/day",
+      "button": "Rent Now",
+      "description": "Agricultural machine for harvesting crops efficiently."
+    },
+    {
+      "name": "Golden Grain Seeder",
+      "id": 4,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731491816/Farm_seeder_kww0zo.png",
+      "cloudName": "drqaon7o8",
+      "vector": "https://res.cloudinary.com/drqaon7o8/image/upload/v1731660061/Vector__xzc7dy.png",
+      "tags": "Engine Power: 300 HP",
+      "price": "₦ 36,000/day",
+      "button": "Rent Now",
+      "description": "Seeder designed for planting seeds with precision."
+    }
+  ]
+}

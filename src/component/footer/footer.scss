@@ -1,0 +1,28 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#Footer {
+  background-color: #f9f8f5;
+  .section {
+    width: $width;
+    // width: 1440px;
+    height: 58px;
+    background-color: #023202;
+    @include flex-between;
+    margin-top: 138px;
+    margin-bottom: 10px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    // margin: auto;
+    p {
+      color: white;
+    }
+
+    .socials {
+      //   @include flex-center;
+      display: $flex;
+      gap: 10px;
+    }
+  }
+}

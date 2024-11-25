@@ -1,0 +1,99 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#HowItWorks {
+  width: $width;
+  background-color: $background;
+  margin: $margin;
+  padding-top: 60px;
+
+  .section {
+    max-width: $max;
+    margin: $margin;
+
+    .div1 {
+      text-align: center;
+      background-color: $color3;
+      color: white;
+      height: 282px;
+      border-radius: 8px;
+      padding: 20px;
+      @include flex-column;
+
+      h2 {
+        font-size: 36px;
+      }
+      p {
+        width: 1180px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 18px;
+      }
+
+      button {
+        background-color: white;
+        color: $color1;
+        width: 340px;
+        height: 54px;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+    }
+
+    .div2 {
+      padding-top: 90px;
+      @include flex-between;
+
+      .step {
+        width: 605px;
+        height: 384px;
+
+        h2 {
+          margin-bottom: 20px;
+          font-size: 36px;
+        }
+
+        p {
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+      }
+
+      img {
+        width: 619px;
+      }
+    }
+
+    .div3 {
+      @include flex-between;
+      margin-top: 74px;
+      background-color: white;
+
+      h2 {
+        font-size: 36px;
+        width: 518px;
+      }
+
+      .explore {
+        width: 537px;
+        font-size: 18px;
+        padding-top: 20px;
+
+        p {
+          margin-bottom: 50px;
+        }
+
+        button {
+          width: 537px;
+          background-color: $color1;
+          height: 54px;
+          border-radius: 100px;
+          border-style: $border;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

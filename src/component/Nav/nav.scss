@@ -1,0 +1,34 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#Nav {
+  nav {
+    padding-top: 15px;
+    margin-bottom: 20px;
+    ol {
+      @include flex-between;
+      color: #079607;
+      margin-left: 8vw;
+      margin-right: 8vw;
+      list-style-type: none;
+      flex-wrap: wrap;
+
+      .center {
+        @include flex-center;
+        gap: 61px;
+
+        a {
+          text-decoration: none;
+          color: #079607;
+        }
+      }
+
+      .socials {
+        @include flex-center;
+        gap: 25px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#Description {
+  max-width: $width;
+  background-color: $background;
+  .section1 {
+    width: $max;
+    height: 641px;
+    margin: $margin;
+    margin-top: 61px;
+  }
+
+  .john {
+    @include flex-center;
+    gap: 21px;
+    margin-top: 30px;
+    font-size: 38px;
+
+    button {
+      background-color: $color1;
+      color: white;
+      width: 117px;
+      height: 35px;
+      border-radius: 16px;
+      border-style: $border;
+      cursor: pointer;
+    }
+  }
+
+  .rent {
+    @include flex-center;
+    gap: 90px;
+    margin-top: 25px;
+
+    .first {
+      button {
+        background-color: $color1;
+        color: white;
+        @extend .width281;
+        border-radius: 100px;
+        border-style: $border;
+        cursor: pointer;
+      }
+    }
+
+    .second {
+      background-color: white;
+
+      button {
+        color: $color1;
+        @extend .width281;
+        border-radius: $up;
+        border-style: $border;
+        cursor: pointer;
+        border: 2px solid;
+        border-color: #6ce49f;
+      }
+    }
+  }
+
+  .section2 {
+    margin-top: 83px;
+    .div1 {
+      width: 1200px;
+      margin: auto;
+
+      h3 {
+        margin-bottom: 14px;
+        font-size: 26px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+
+    .div2 {
+      @include flex-center;
+      gap: 45px;
+      margin: $margin;
+      font-size: 18px;
+      margin-top: 40px;
+
+      h4 {
+        margin-bottom: 10px;
+      }
+
+      .specification {
+        width: 580px;
+        margin-top: -85px;
+      }
+
+      .features {
+        width: 580px;
+      }
+    }
+  }
+
+  .section3 {
+    margin-top: 56px;
+    width: $max;
+    margin: $margin;
+    h3 {
+      margin-bottom: 15px;
+      font-size: 26px;
+    }
+    .div3 {
+      display: $flex;
+      gap: 45px;
+      margin: $margin;
+      font-size: 18px;
+
+      h5 {
+        font-size: 18px;
+        margin-top: 28px;
+      }
+
+      .rating {
+        .verified {
+          background-color: $background;
+          border-radius: 10px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

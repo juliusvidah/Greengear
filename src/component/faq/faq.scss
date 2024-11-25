@@ -1,0 +1,120 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#FAQ {
+  width: $width;
+  background-color: $background;
+  margin: $margin;
+  padding-top: 60px;
+
+  .section {
+    max-width: $max;
+    margin: $margin;
+
+    .top {
+      @include flex-column;
+      margin-bottom: 51px;
+
+      h2 {
+        font-size: 38px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        width: 792px;
+        text-align: center;
+        color: gray;
+        font-size: 18px;
+      }
+    }
+    .faq {
+      padding: 2rem;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      margin: 2rem auto;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      &__item {
+        margin-bottom: 1rem;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+
+        &--active {
+          border-color: #007bff;
+        }
+      }
+
+      &__question {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: left;
+        background: none;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        color: #333;
+        transition: 0.3s;
+
+        &:hover {
+          background: #f1f1f1;
+        }
+      }
+
+      &__icon {
+        font-size: 1rem;
+        transition: transform 0.3s;
+
+        &--open {
+          transform: rotate(180deg);
+        }
+      }
+
+      &__answer {
+        padding: 1rem;
+        font-size: 0.9rem;
+        color: #555;
+        background: #fafafa;
+        border-top: 1px solid #ddd;
+      }
+    }
+
+    .bottom {
+      width: 413px;
+      margin-top: 48px;
+      h2 {
+        font-size: 38px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        color: gray;
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+
+      button {
+        color: white;
+        background-color: $color1;
+        width: 340px;
+        height: 54px;
+        border-radius: 100px;
+        cursor: pointer;
+        border-style: none;
+      }
+    }
+  }
+}

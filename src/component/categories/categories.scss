@@ -1,0 +1,67 @@
+@import "../Scss//extends";
+@import "../Scss//includes";
+@import "../Scss//variables";
+
+#Categories {
+  width: $width;
+  background-color: $background;
+  margin: $margin;
+  .section {
+    max-width: $width;
+    @include flex-around;
+    padding-top: 50px;
+  }
+
+  .div1 {
+    width: 305px;
+    height: 339px;
+    font-size: 18px;
+
+    h4 {
+      color: $color1;
+      padding-bottom: 15px;
+      background-color: white;
+      padding-left: 8px;
+    }
+
+    p {
+      padding-bottom: 15px;
+      background-color: white;
+      padding-left: 8px;
+    }
+  }
+
+  .div2 {
+    @include flex-center;
+    // gap: 20px;
+    width: 950px;
+
+    .empower {
+      width: 480px;
+      height: 306px;
+      background-color: #023202;
+      color: white;
+      border-radius: 15px;
+      @include flex-column;
+      text-align: center;
+      padding: 73px;
+
+      h5 {
+        width: 380px;
+        font-size: 26px;
+        // text-align: center;
+      }
+
+      p {
+        width: 380px;
+        font-size: 18px;
+        margin-top: 15px;
+        // text-align: center;
+      }
+    }
+
+    // .image6 {
+    //   border-radius: 15px;
+    // }
+  }
+}
