@@ -75,13 +75,37 @@
     font-weight: bold;
   }
 
-  .google-icon4 Image{
+  .google-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border: 2px solid green;
+   border-radius: 100px;
+   width: 100%;
+   margin-bottom: 10px;
+   cursor: pointer;
+  }
+  .apple-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border: 2px solid green;
+   border-radius: 100px;
+   width: 100%;
+   margin-bottom: 10px;
+   cursor: pointer;
+  }
+  .google-button img{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .apple-button img{
     width: 20px;
-    height: 879px;
-    left: 720px;
-    gap: 0px;
-    opacity: 0px;
-    
+    height: 20px;
+    margin-right: 10px;
   }
   
   .login-text {

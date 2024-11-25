@@ -137,7 +137,7 @@ function SignIn() {
           Login with Apple
         </button>
         <p className="login-text">
-          Don't Have An Account? <a href="/">Sign Up</a>
+          Forgotten Password ? <a href="/passwordresetform">Click Here</a>
         </p>
       </div>
       <div className="image-container">
