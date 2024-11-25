@@ -74,6 +74,15 @@
     cursor: pointer;
     font-weight: bold;
   }
+
+  .google-icon4 Image{
+    width: 20px;
+    height: 879px;
+    left: 720px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
   
   .login-text {
     margin-top: 10px;

@@ -10,9 +10,16 @@ function App() {
 
   return (
     <>
+    <Routes>
+      <Route path='/' element={<SignUp/>}/>
+      <Route path='/signin' element={<SignIn/>}/>
+      <Route path='/account' element={<Account/>}/>
+      <Route path='/Emailverification' element={<EmailVerification/>}/>
+      <Route path='/passwordresetform' element={<PasswordResetForm/>}/>
+    </Routes>
       {/* <SignIn/> */}
-      {/* <SignUp/> */}
-      <Account/>
+      
+      {/* <Account/> */}
       {/* <PasswordResetForm/> */}
       {/* <EmailVerification/> */}
     </>

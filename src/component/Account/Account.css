@@ -98,10 +98,9 @@ h3 {
   padding-left: 10px;
   padding-right: 10px;
   border: none;
-  padding-top: -20px;
   background: none;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
   color: #666;
   border-bottom: 2px solid transparent;
   text-decoration: none;
@@ -114,7 +113,18 @@ h3 {
 
 .address-card .hadin {
   border-bottom: 2px solid #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
 }
+
+.edit-icon{
+  cursor: pointer;
+}
+
 
 .account-container {
   width: 100%;
@@ -188,15 +198,7 @@ h3 {
   border-radius: 100px;
   cursor: pointer;
   font-size: 10px;
-  margin: 7px;
-  margin-left: 26rem;
+  margin: 10px;
+  margin-left: 51rem;
 }
 
-.address-section .edit-btn {
-  background: green;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}

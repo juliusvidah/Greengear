@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import {Image, Video, Transformation} from 'cloudinary-react';
 import "./Account.css";
+import { EditIcon, MyOrder, ProfilePic } from "../CloudImages/CloudImages";
 
 const Account = () => {
   const [activeTab, setActiveTab] = useState("profile");
@@ -12,7 +14,9 @@ const Account = () => {
             <div className="user-profile">
               <div className="account-container">
                 <div className="profile-header">
-                  <img src="{profile}" alt="Profile" className="profile-pic" />{" "}
+                <Image cloudName="degnky4ab" publicId={ProfilePic.profilepic}>
+   <Transformation crop="scale" width="100" angle="0" className="profile-pic" />
+ </Image>
                   <button className="upload-btn">📷</button>
                 </div>
                 <div className="form-group1">
@@ -61,7 +65,9 @@ const Account = () => {
               {["Returned", "Pending", "Received", "Pending", "Received"].map(
                 (status, index) => (
                   <div className="order-item" key={index}>
-                    <img src="https://via.placeholder.com/100" alt="Product" />
+                           <Image cloudName="degnky4ab" publicId={MyOrder.myorder1}>
+   <Transformation crop="scale" width="200" angle="0" className="profile-pic" />
+ </Image>
                     <div>
                       <h4>John Dey Tractor</h4>
                       <p>Qty: 1</p>
@@ -83,14 +89,18 @@ const Account = () => {
               <button className="add-btn">+ Add New Address</button>
               <div className="address-card">
                 <div className="hadin">
-                  <h4>Address Book</h4>
+                  <h4>Address Book </h4>
+                  <div className="edit-icon">
+                  <Image cloudName="degnky4ab" publicId={EditIcon.editicon}>
+   <Transformation crop="scale" width="100" angle="0" className="profile-pic2" />
+ </Image>
+                  </div>
                 </div>
                 <h4>Default Shipping Address</h4>
                 <p>
                   KM 14 Lagos Badagry Expressway, Badagry Lagos Nigeria.
                   08134786532
                 </p>
-                {/* <button className="edit-btn">✏️ Edit</button> */}
               </div>
             </div>
           </div>
